@@ -1,0 +1,152 @@
+a{
+  color: #1a1c20;
+  font-weight: bold;
+}
+
+img{
+  width:100%;
+}
+
+.logo{
+  width: 50px;
+  margin-left: 0;
+  margin-top: 0;
+  margin-right: 100%;
+}
+
+h1 {
+  color: #1a1c20;
+  margin: 50px 20px 20px 50px;
+  /*font-family: 'Great Vibes', cursive;*/
+  font-size: 2.75rem; /* 16px = 100% = 1em for font size */
+}
+
+h2 {
+  color: #1a1c20;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #1a1c20;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+h4 {
+  color: #FBB32E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Kumbh Sans', sans-serif;
+  color: #1a1c20;
+}
+
+hr{
+  border-style: none;
+  border-top-style: dotted;
+  border-width: thick;
+  border-color: #FBB32E;
+  width: 5%;
+  margin: 50px auto 50px auto;
+}
+
+.left{
+  background: #1a1c20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+.right{
+  background: #1a1c20;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 15px;
+  right: 0;
+}
+
+
+.top-container{
+  padding: 20px 0 0 0;
+  position: relative;
+}
+
+.head-img{
+  width: 100%;
+  margin: 100px 0 0 auto;
+  padding-bottom: 20px;
+}
+
+.logo-head{
+  width: 20%;
+}
+
+.welcome-container{
+  margin-top: 50px;
+}
+
+.welcome-img{
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.welcome-row{
+  width: 70%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.class-container{
+width:70%;
+margin: 50px auto 50px auto;
+}
+
+.class-list{
+  color: #FBB32E;
+}
+
+.bottom-container{
+  background-color: #FBB32E;
+    color: #1a1c20;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+/*.column {
+ float: left;
+ width: 50%;
+ padding: 5px;
+}
+
+.col {
+ float: left;
+ width: 33.33%;
+}
+
+/* Clear floats after image containers */
+/*.row::after {
+ content: "";
+ clear: both;
+ display: table;
+}*/
+
+
+.contact-container{
+  padding: 10px;
+}
+
+.footer-link{
+  size: 1.2rem;
+  padding: 0 10px 10px 0;
+}
