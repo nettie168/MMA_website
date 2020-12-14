@@ -3,6 +3,11 @@ a{
   font-weight: bold;
 }
 
+a:hover{
+  color:#40514E;
+  text-decoration: none;
+}
+
 img{
   width:100%;
 }
@@ -16,9 +21,9 @@ img{
 
 h1 {
   color: #1a1c20;
-  margin: 50px 20px 20px 50px;
+  margin-top: 50px;
   /*font-family: 'Great Vibes', cursive;*/
-  font-size: 2.75rem; /* 16px = 100% = 1em for font size */
+  font-size: 2.5rem; /* 16px = 100% = 1em for font size */
 }
 
 h2 {
@@ -38,8 +43,15 @@ h3 {
 h4 {
   color: #FBB32E;
   font-family: 'Montserrat', sans-serif;
-  font-size: 1rem;
-  font-weight: normal;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h5{
+  font-size:0.95rem;
+  font-weight: lighter;
+  padding-top:5px;
+  padding-bottom: 20px;
 }
 
 body {
@@ -75,14 +87,13 @@ hr{
   right: 0;
 }
 
-
 .top-container{
   padding: 20px 0 0 0;
   position: relative;
 }
 
 .head-img{
-  width: 100%;
+  width: 80%;
   margin: 100px 0 0 auto;
   padding-bottom: 20px;
 }
@@ -93,6 +104,7 @@ hr{
 
 .welcome-container{
   margin-top: 50px;
+  padding-bottom: 10px;
 }
 
 .welcome-img{
@@ -113,13 +125,29 @@ width:70%;
 margin: 50px auto 50px auto;
 }
 
+
+/*.address{
+  width:70%;
+  line-height: 10px;
+}*/
+
 .class-list{
   color: #FBB32E;
+  background-color: #1a1c20;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.profile_placeholder{
+  width: 80%;
 }
 
 .bottom-container{
   background-color: #FBB32E;
-    color: #1a1c20;
+  color: #1a1c20;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
